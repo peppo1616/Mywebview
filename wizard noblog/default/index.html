@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+<title>jQuery contact form</title>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery_mail.js"></script>
+    <script src="jquery.uniform.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8">
+          $(function(){
+            $("input, textarea, select, button").uniform();
+          });
+    </script>
+    <link rel="stylesheet" href="css/uniform.default.css" type="text/css" media="screen">
+</head>
+
+
+<body>
+	<div id="form_div">
+        <h1> My app wizard </h1>
+        <p>Compila il form per ottenere la tua versione dell applicazione Sales Offer
+		Le informazioni saranno disponibili nell applicazione finale ai clienti <br />
+		<small>I dati non vengono registrati a fini commerciali ma contribuiscono totalmente alla customizzazione dell applicazione</small></p>
+               
+        <form id="fordownload" method="post" action="">
+        <div id="risposta">
+        </div>
+        
+         <div class="RagioneSociale-wrapper wrap">
+        <label>RagioneSociale: *</label>
+        <input type="text" id="RagioneSociale" name="RagioneSociale"  value=""  maxlength="100" class="long"/><br />
+        </div>
+        
+        <div class="Piva-wrapper wrap">
+        <label>P.IVA / CF:</label>
+        <input type="text" id="Piva" name="Piva"  value=""  maxlength="16" class="long"/><br />
+        </div>
+        
+        <div class="SitoWeb-wrapper wrap">
+        <label>Sito web: *</label>
+        <input type="text" id="SitoWeb" name="SitoWeb"  value=""  maxlength="200" class="longer"/><br />
+        <small>Esempio: http://www.computeressential.it</small><br />
+        </div>
+        
+        <div class="ApiUrl-wrapper wrap">
+        <label>Indirizzo API (Server): *</label>
+        <input type="text" id="ApiUrl" name="ApiUrl"  value=""  maxlength="200" class="longest"/><br />
+        <small>Esempio: http://www.computeressential.it/sales_offer/list_offer.php</small><br />
+        </div>
+        
+        <div class="Indirizzo-wrapper wrap">
+        <label>Indirizzo: *</label>
+        <input type="text" id="Indirizzo" name="Indirizzo"  value=""  maxlength="100" class="longer"/><br />
+        </div>
+        
+        <div class="Citta-wrapper wrap">
+        <label>Citta: *</label>
+        <input type="text" id="Citta" name="Citta"  value=""  maxlength="50" class="medium"/><br />
+        </div>
+        
+        <div class="Cap-wrapper wrap">
+        <label>CAP: *</label>
+        <input type="text" id="Cap" name="Cap"  value=""  maxlength="5" class="shortest"/><br />
+        </div>
+        
+        <div class="Provincia-wrapper wrap">
+        <label>Provincia: *</label>
+        <input type="text" id="Provincia" name="Provincia"  value=""  maxlength="2" class="two"/><br />
+        </div>
+        
+        <div class="Telefono-wrapper wrap">
+        <label>Telefono: </label>
+        <input type="text" id="Telefono" name="Telefono"  value=""  maxlength="10" class="small"/><br />
+        </div>     
+        
+        <div class="Cellulare-wrapper wrap">
+        <label>Cellulare: </label>
+        <input type="text" id="Cellulare" name="Cellulare"  value=""  maxlength="10" class="small"/><br />
+        </div>
+        
+        <div class="Email-wrapper wrap">
+        <label>E-mail: *</label>
+        <input type="text" id="Email" name="Email"  value="" class="medium"/><br />
+        </div>
+        
+        <div class="Terms-wrapper wrap">
+        <label>Privacy: *</label>
+        <label><input type="checkbox"  id="Terms" name="Terms" /> Tutela delle persone e di altri soggetti rispetto al trattamento dei dati personali". Si informa che cliccando su "Invia" dichiarate di accettare espressamente i nostri termini di utilizzo relativi alla privacy</label>
+        </div>
+        
+        <div class="Invia-wrapper wrap">
+        <input id="invia" type="submit" value="Invia" name="invia">
+        </div>
+        
+        <p>Nome:</p>
+	<input type="text" id="nome" name="nome"  value="" /><br />
+	<p>E-mail:</p>
+	<input type="text" id="email" name="email"  value="" /><br />
+	<p>Oggetto:</p>
+	<input type="text" id="oggetto" name="ogggetto"  value="" /><br />
+	<p>Messaggio:</p>
+	<textarea id="messaggio" name="messaggio" rows="9" cols="20"></textarea><br />
+        
+        
+        </form>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+p{
+margin: 0 0 5px 0;
+color:#5F6565;
+font-family:Tahoma,Arial,Helvetica,sans-serif;
+}
+form#formail{
+margin:0 auto;
+width: 315px;
+background-color: #f2f2f2;
+border: 1px solid #dbdbdb;
+padding: 10px;
+}
+input[type=text]{
+background:#FFFFFF none repeat scroll 0 0;
+border:1px solid #CED0D0;
+color:#5F6565;
+font-family:Tahoma,Arial,Helvetica,sans-serif;
+margin-bottom:10px;
+padding:4px 5px;
+width:300px;
+}
+textarea{
+background:#FFFFFF none repeat scroll 0 0;
+border:1px solid #CED0D0;
+color:#5F6565;
+font-family:Tahoma,Arial,Helvetica,sans-serif;
+padding:4px 5px;
+width:300px;
+height: 160px;
+}
+#risposta{
+display: none;
+border: 1px solid #ccc;
+padding: 10px;
+margin-bottom: 10px;
+}
