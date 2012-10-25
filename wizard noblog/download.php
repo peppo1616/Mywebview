@@ -16,7 +16,7 @@ restituisce il link per il download
 	$output = array("result" =>"","response" =>"");
 	
 	/*genero il nome unico per l'applicazione*/
-	$tmp_dir = md5($nome."MyWebApp".$sito);
+	$tmp_dir = md5($nome.SALTPHRASE.$sito);
 
 	/*Se sono vuoti ritorno un errore via json*/
 	if(!filter_has_var(INPUT_POST, "Nome") ||

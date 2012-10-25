@@ -8,4 +8,5 @@ define(SHELL_PATH_,'/home/mywebview/configmyapp2.sh');
 define(DOWNLOAD_DIR,'"'.DOWNLOAD_DIR_.'"');
 define(OUTPUTFILE_NAME,'"'.OUTPUTFILE_NAME_.'"');
 define(SHELL_PATH,'"'.SHELL_PATH_.'"');
+define(SALTPHRASE,"MyWebApp");
 ?>
