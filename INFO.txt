@@ -1,0 +1,11 @@
+Informazioni sulle directory:
+
+-MyWebView, directory dove si trova l'applicazione base in sorgente
+-wizard noblog, directory dove si trova il servizio di personalizzazione e le pagine web di input e output dell'applicazione generata
+-configmyapp2.sh, è lo script che si occupa di compilare il sorgente, scrivere il file di configurazione e rilasciare l'app.
+
+NOTA: In configmyapp2.sh ci sono dei riferimenti al file system e alle directory dell'applicazione base, se intendete provare il sitema controllare se i riferimenti sulla vostra macchina sono corretti e rivedere il codice altrimenti!
+
+NOTA: se qualcuno intendesse lavorarci o provare ad installare sono disponibile all'aiuto e allo sviluppo di helper.
+
+Per Info: andrea.pola@email.it
